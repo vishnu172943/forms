@@ -1,0 +1,84 @@
+ /* style.css */
+
+/* style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(147, 203, 91);
+    margin: 0;
+    padding: 0;
+}
+
+#surveyform {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(84, 219, 84); /* Green background for the entire surveyform area */
+}
+
+#survey {
+    flex: 1;
+    max-width: 500px;
+    padding: 20px; /* Increased padding for better separation */
+    box-sizing: border-box;
+    background-color: white; /* White background for the survey form */
+    margin-right: 20px; /* Space between survey and sideform */
+}
+
+#sideform {
+    flex: 1;
+    max-width: 500px;
+    padding: 20px; /* Increased padding for better separation */
+    box-sizing: border-box;
+    background-color: white; /* Green background for the sideform area */
+}
+
+h1 {
+    color: rgb(3, 251, 94);
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    text-align: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 18px;
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea,
+button {
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+button {
+    height: 40px;
+    background-color: darkgreen;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+fieldset {
+    margin-bottom: 10px;
+}
